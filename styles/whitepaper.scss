@@ -1,0 +1,27 @@
+@use "./color" as c;
+@import "./mixins";
+
+.whitepaper {
+  padding: 30px 20%;
+  background-color: c.$LightPurple;
+  > div {
+    background-color: white;
+    padding: 20px !important;
+    border-radius: 20px;
+  }
+  img {
+    width: 100%;
+  }
+  @include desktop {
+    padding: 10px;
+  }
+}
+.spanArrow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > *:hover {
+    cursor: pointer;
+  }
+}
