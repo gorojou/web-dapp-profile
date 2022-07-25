@@ -31,7 +31,7 @@ function Footer() {
         >
           <h1 className={``}>Documentación</h1>
 
-          <Link href={"https://github.com/discoper"}>
+          <Link href={"https://github.com"}>
             <div className={styles.linkSection}>
               <img src={github.src} className={styles.linkImage} />
               <a>Github</a>
