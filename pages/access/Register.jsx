@@ -145,11 +145,7 @@ function Register() {
           />
           <p>Soy un creador</p>
         </div>
-        <ReCAPTCHA
-          sitekey={"6Lcfd3IUAAAAAOtysDz3EOyJ7yWzNiXpynUYRIfk"}
-          size="normal"
-          onChange={onReCAPTCHAChange}
-        />
+     
         <button type="submit" className={styles.primaryButton}>
           <p>Registrate</p>
         </button>
