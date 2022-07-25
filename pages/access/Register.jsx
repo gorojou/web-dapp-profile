@@ -146,7 +146,7 @@ function Register() {
           <p>Soy un creador</p>
         </div>
         <ReCAPTCHA
-          sitekey={"6LeIeQ0hAAAAAJGc9oT5RJPo_40fYbZuVuU_UWhh"}
+          sitekey={"6Lcfd3IUAAAAAOtysDz3EOyJ7yWzNiXpynUYRIfk"}
           size="normal"
           onChange={onReCAPTCHAChange}
         />
