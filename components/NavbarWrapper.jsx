@@ -47,7 +47,8 @@ export function NavbarWrapper({ children }) {
           <ul className="navbar-nav ml-auto">
             <div className="nav-left">
               <li className="nav-item">
-                <Link href="https://marketplace-lb-bsc.vercel.app/">
+                <Link href="https://dapp-nft-marketplace.vercel.app/">
+
                   <a>
                     <img src={marketplace.src} alt="" />
                     <p>Marketplace</p>
