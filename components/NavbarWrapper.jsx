@@ -48,6 +48,7 @@ export function NavbarWrapper({ children }) {
             <div className="nav-left">
               <li className="nav-item">
                 <Link href="https://dapp-nft-marketplace.vercel.app/">
+
                   <a>
                     <img src={marketplace.src} alt="" />
                     <p>Marketplace</p>
